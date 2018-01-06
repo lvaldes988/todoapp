@@ -1,0 +1,54 @@
+.container{
+    display: flex;
+    justify-content: center;
+    min-width: 100vw;
+    min-height: auto;
+    border-radius: 7px;
+    
+}
+
+.col{
+    border: 1px solid black;
+    min-width: 30vw;
+    min-height: 40vh;
+    margin: 0vh 5vw 0vh 5vw; 
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    font-style: oblique;
+    background-color: rgb(247, 211, 247);
+   
+     
+}
+
+.col li{
+    list-style-type: none;
+    border: 1px solid black;
+    min-height: 11vh;
+    min-width: 8vw;
+    margin: 2vh 3vw 2vw 0vh;
+    border-radius: 7px;
+    background-color: rgb(245, 223, 245);
+    
+}
+
+.col ul{
+
+}
+
+.add {
+    margin-left: 294px;
+    margin-top: inherit;
+    border-radius: 7px;
+    width: 130px;
+    height: 36px;
+    font-size: 22px;
+}
+.delete{
+    margin-left: 600px;
+    margin-top: auto;
+    border-radius: 7px;
+    width: 130px;
+    height: 36px;
+    font-size: 22px;
+}
